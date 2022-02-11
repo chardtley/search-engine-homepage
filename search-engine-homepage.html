@@ -18,58 +18,60 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 <body>
-    <nav>
-        <a href="/about" class="nav-link left">About</a>
-        <a href="/store" class="nav-link left">Store</a>
-        <a href="/runemail" class="nav-link right">Runemail</a>
-        <a href="/images" class="nav-link right">Images</a>
-        <a href="/staves" class="nav-link right" aria-label="Magic Staves" aria-expanded="false" role="button" tabindex="0"></a>
-        <a href="/Bifrost" class="nav-link right" aria-label="Bifrost Account: User X" aria-expanded="false" role="button" tabindex="0"></a>
-    </nav>
-    <!--background-->
-    <div class="background">
-        <div class="bg-layer">
-    <!--landing image-->
-            <div>
-                <img src="#vegvisir.png" alt="Vegvisir Search Logo" srcset="media/images/vegvisir-alt.png">
-            </div>
-            <!--service container-->
-            <div>
-                <!--search bar-->
-                <div>
-                    <input type="search" placeholder="Eternal Knowledge Awaits..." name="q" role="combobox" aria-expanded="false" autofocus="autofocus" aria-autocomplete="list" autocomplete="off" autocorrect="off" spellcheck="false" autocapitalize="none" aria-haspopup="false" aria-label="Search" title="Search">
+    <div class="flex-wrap">
+        <nav>
+            <a href="/about" class="nav-link left">About</a>
+            <a href="/store" class="nav-link left">Store</a>
+            <a href="/runemail" class="nav-link right">Runemail</a>
+            <a href="/images" class="nav-link right">Images</a>
+            <a href="/staves" class="nav-link right" aria-label="Magic Staves" aria-expanded="false" role="button" tabindex="0"></a>
+            <a href="/Bifrost" class="nav-link right" aria-label="Bifrost Account: User X" aria-expanded="false" role="button" tabindex="0"></a>
+        </nav>
+        <!--background-->
+        <div class="home-content">
+            <div class="main-home-content">
+                <!--search logo-->
+                <div class="search-logo">
+                    <img src="#vegvisir.png" alt="Vegvisir Search Logo" srcset="media/images/vegvisir-alt.png" style="width:100%">
                 </div>
-                <!--buttons-->
-                <div>
-                    <input type="submit" value="Trace the Weaver" aria-label="Trace the Weaver">
-                    <input type="submit" value="Trust in Odin" aria-label="Trust in Odin">
+                <!--service container-->
+                <div class="service-container">
+                    <!--search bar-->
+                    <div class="search-bar">
+                        <input type="search" placeholder="Eternal Knowledge Awaits..." name="q" role="combobox" aria-expanded="false" autofocus="autofocus" aria-autocomplete="list" autocomplete="off" autocorrect="off" spellcheck="false" autocapitalize="none" aria-haspopup="false" aria-label="Search" title="Search">
+                    </div>
+                    <!--buttons-->
+                    <div class="submit-buttons">
+                        <input type="submit" value="Trace the Weaver" aria-label="Trace the Weaver">
+                        <input type="submit" value="Trust in Odin" aria-label="Trust in Odin">
+                    </div>
                 </div>
-            </div>
-            <!--service language-->
-            <div>
-                <p>Vegvesir also offered in <a href="/futhark">Norse Runes</a></p>
-            </div>
-            <!--region-->
-            <div>
-                <p>Asgard</p>
+                <!--service language-->
+                <div class="language">
+                    <p>Vegvesir also offered in <a href="/futhark">Norse Runes</a></p>
+                </div>
+                <!--region-->
+                <div class="region>">
+                    <p>Asgard</p>
+                </div>
             </div>
         </div>
+        <!--additional services-->
+        <footer>
+            <!---norns-->
+            <div class="norns">
+                <a href="#/divination">Divination</a>
+                <a href="#/urðr">Urðr</a>
+                <a href="#/skuld">‎Skuld</a>
+                <a href="#/verðandi">‎Verðandi</a>
+            </div>
+            <!---legal-->
+            <div class="legal">
+                <a href="#/privacy">Privacy</a>
+                <a href="#/terms">Terms</a>
+                <a href="#/settings">Settings</a>
+            </div>
     </div>
-    <!--additional services-->
-    <footer>
-        <!---norns-->
-        <div>
-            <a href="#/divination">Divination</a>
-            <a href="#/urðr">Urðr</a>
-            <a href="#/skuld">‎Skuld</a>
-            <a href="#/verðandi">‎Verðandi</a>
-        </div>
-        <!---legal-->
-        <div>
-            <a href="#/privacy">Privacy</a>
-            <a href="#/terms">Terms</a>
-            <a href="#/settings">Settings</a>
-        </div>
     </footer>
 </body>
 </html>

@@ -1,6 +1,29 @@
+.flex-wrap {
+    display: flex;
+    flex-direction: column; 
+}
+
 body {
     background-color: rgb(92, 95, 110);
     color: rgba(190, 190, 190, 0.6);
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    min-width: 400px;
+    font-size: 14px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.home-content {
+    background-image: url(https://media.giphy.com/media/XEsIimN7BUzzh6hbED/giphy.gif);
+    display: flex;
+    height: 100%;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    background-repeat: no-repeat ;
+    background-size: cover;
+    filter:opacity(.65)
 }
 
 p {
@@ -19,16 +42,47 @@ input {
 
 nav {
     background-color: rgba(50, 50, 50, 0.8);
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.nav-link {
+    display: flex;
+    flex-wrap: wrap;
+    align-self: center;
+    justify-self: center;
+    white-space: nowrap;
+}
+
+.nav-link.left {
+    display: block;
+    color: lawngreen;
+}
+
+.nav-link.right {
+    display: block;
+    color: hotpink;
+}
+
+.main-home-content {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
 }
 
 footer {
     background-color: rgba(50, 50, 50, 0.8);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
 
-.background {
-    background-image: url(https://media.giphy.com/media/XEsIimN7BUzzh6hbED/giphy.gif);
-    }
+.norns {
+    display: block;
+    white-space: nowrap;
+}
 
-.bg-layer {
-    background-color: rgba(80, 80, 80, 0.7);
+.legal {
+    display: block;
+    white-space: nowrap;
 }
